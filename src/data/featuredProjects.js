@@ -26,6 +26,6 @@ export const FEATURED_PROJECTS = [
         img: "/featured/pawmemo/landing.png",
         description: "A journal app for your pet!",
         tags: ["React Native", "Node.js"],
-        carousel: ["/featured/pawmemo/landing.png", "/featured/pawmemo/create.png", "/featured/pawmemo/form.png", "/featured/pawmemo/dash.png"]
+        carousel: ["/featured/pawmemo/landing.png", "/featured/pawmemo/create.png", "/featured/pawmemo/form.png", "/featured/pawmemo/dash.png", "/featured/pawmemo/event.png"]
     }
 ]

@@ -1,15 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&display=swap");
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Patrick Hand", ui-sans-serif, system-ui, sans-serif;
+  --font-display:
+    "Indie Flower", "Patrick Hand", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
   html,
   :host {
     color: var(--color-indigo-800);
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
   }
 
   h1,

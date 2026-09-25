@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" width="240" height="200" fill="none">
+  <defs>
+    <!-- Soft glow filter for organic hand-drawn warmth -->
+    <filter id="handdrawn-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#4C1D95" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <g filter="url(#handdrawn-glow)">
+    <!-- ==================== SPARKLE 1 (LARGE MAIN - LEFT) ==================== -->
+    <!-- Outer Base / Main Body (Violet-700 with Violet-800 Stroke) -->
+    <path
+      d="M 85,20 
+         C 88,58 96,80 158,95 
+         C 98,100 87,122 85,178 
+         C 82,124 70,98 12,95 
+         C 72,91 83,68 85,20 Z"
+      fill="#6D28D9"
+      stroke="#5B21B6"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Inner Organic Shading Lines (Violet-800) -->
+    <path
+      d="M 85,34 C 87,62 94,83 140,95"
+      stroke="#5B21B6"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 85,164 C 83,136 76,113 30,95"
+      stroke="#5B21B6"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+
+    <!-- Hand-Drawn Highlight Lines (Soft Violet-400) -->
+    <path
+      d="M 83,32 C 82,60 74,86 25,94"
+      stroke="#C084FC"
+      stroke-width="3"
+      stroke-linecap="round"
+      opacity="0.85"
+    />
+    <path
+      d="M 87,166 C 88,138 96,112 145,96"
+      stroke="#C084FC"
+      stroke-width="3"
+      stroke-linecap="round"
+      opacity="0.85"
+    />
+
+    <!-- Core Bright Dot Accent -->
+    <circle cx="85" cy="95" r="4" fill="#DDD6FE" />
+
+    <!-- ==================== SPARKLE 2 (MEDIUM MAIN - RIGHT) ==================== -->
+    <!-- Outer Base / Main Body (Violet-700 with Violet-800 Stroke) -->
+    <path
+      d="M 175,65 
+         C 177,93 184,108 228,120 
+         C 185,124 177,139 175,180 
+         C 173,141 164,122 122,120 
+         C 165,117 173,100 175,65 Z"
+      fill="#6D28D9"
+      stroke="#5B21B6"
+      stroke-width="3.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Inner Organic Shading Lines (Violet-800) -->
+    <path
+      d="M 175,76 C 176,96 182,111 214,120"
+      stroke="#5B21B6"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 175,168 C 174,148 168,132 136,120"
+      stroke="#5B21B6"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+
+    <!-- Hand-Drawn Highlight Lines (Soft Violet-400) -->
+    <path
+      d="M 173,74 C 172,94 166,113 132,119"
+      stroke="#C084FC"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      opacity="0.85"
+    />
+    <path
+      d="M 177,170 C 178,150 184,131 218,121"
+      stroke="#C084FC"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      opacity="0.85"
+    />
+
+    <!-- Core Bright Dot Accent -->
+    <circle cx="175" cy="120" r="3" fill="#DDD6FE" />
+
+    <!-- ==================== FLOATING ACCENT SPARKLES & DOTS ==================== -->
+    <!-- Tiny accent mini-sparkle top center -->
+    <path
+      d="M 140,28 C 141,34 143,36 149,37 C 143,38 141,40 140,46 C 139,40 137,38 131,37 C 137,36 139,34 140,28 Z"
+      fill="#6D28D9"
+      stroke="#5B21B6"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx="140" cy="37" r="1" fill="#DDD6FE" />
+
+    <!-- Floating ambient speckles -->
+    <circle cx="102" cy="32" r="2" fill="#6D28D9" />
+    <circle cx="55" cy="155" r="2.5" fill="#6D28D9" />
+    <circle cx="210" cy="72" r="2" fill="#6D28D9" />
+    <circle cx="132" cy="165" r="2" fill="#6D28D9" />
+    <circle cx="25" cy="62" r="2.5" fill="#6D28D9" />
+    <circle cx="225" cy="150" r="1.5" fill="#C084FC" />
+  </g>
+</svg>

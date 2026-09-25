@@ -1,6 +1,9 @@
 export function Banner() {
   return (
-    <header className="flex flex-row mt-16 px-32">
+    <header
+      id="home"
+      className="flex flex-row mt-8 px-8 md:px-32 pb-8 md:pb-16"
+    >
       <div className="flex flex-col flex-1">
         <div className="flex flex-col flex-1 justify-center">
           <div className="p-8">
@@ -31,7 +34,8 @@ export function Banner() {
             </p>
             <div className="flex flex-row gap-4 mt-8">
               <a
-                href="#"
+                href="/resume.pdf"
+                download
                 className="flex flex-row gap-2 bg-violet-600 text-white font-semibold px-6 py-2 rounded-full hover:bg-violet-700"
               >
                 <svg

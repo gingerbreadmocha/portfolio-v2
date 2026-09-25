@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none">
+  <defs>
+    <!-- Soft hand-drawn glow tuned for transparent backgrounds -->
+    <filter id="handdrawn-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#4C1D95" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <g filter="url(#handdrawn-glow)">
+    <!-- Little secondary accent sparkle (top right) -->
+    <path
+      d="M 148,32 
+         C 149,42 153,46 163,48 
+         C 153,50 149,54 148,64 
+         C 147,54 143,50 133,48 
+         C 143,46 147,42 148,32 Z"
+      fill="#6D28D9"
+      stroke="#5B21B6"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Little secondary accent sparkle (bottom left) -->
+    <path
+      d="M 45,138 
+         C 46,145 49,148 56,149 
+         C 49,150 46,153 45,160 
+         C 44,153 41,150 34,149 
+         C 41,148 44,145 45,138 Z"
+      fill="#6D28D9"
+      stroke="#5B21B6"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Main Hand-Drawn Sparkle Shape -->
+    <path
+      d="M 100,18 
+         C 103,58 112,82 178,98 
+         C 114,103 102,126 100,182 
+         C 97,128 84,101 22,98 
+         C 86,94 98,68 100,18 Z"
+      fill="#6D28D9"
+      stroke="#5B21B6"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Inner Shading Lines (Violet-800) -->
+    <path
+      d="M 100,32 C 102,62 110,85 160,98"
+      stroke="#5B21B6"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 100,168 C 98,138 90,115 40,98"
+      stroke="#5B21B6"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+
+    <!-- Hand-Drawn Highlights (Soft Violet-400) -->
+    <path
+      d="M 98,30 C 97,60 88,88 35,97"
+      stroke="#C084FC"
+      stroke-width="3"
+      stroke-linecap="round"
+      opacity="0.85"
+    />
+    <path
+      d="M 102,170 C 103,140 112,112 165,99"
+      stroke="#C084FC"
+      stroke-width="3"
+      stroke-linecap="round"
+      opacity="0.85"
+    />
+
+    <!-- Bright Core Accent Dots -->
+    <circle cx="100" cy="98" r="4" fill="#DDD6FE" />
+    <circle cx="150" cy="48" r="1.5" fill="#DDD6FE" />
+    <circle cx="45" cy="149" r="1.5" fill="#DDD6FE" />
+
+    <!-- Hand-drawn floating speckles -->
+    <circle cx="120" cy="36" r="2" fill="#6D28D9" />
+    <circle cx="68" cy="160" r="2.5" fill="#6D28D9" />
+    <circle cx="165" cy="125" r="2" fill="#6D28D9" />
+    <circle cx="35" cy="65" r="2.5" fill="#6D28D9" />
+  </g>
+</svg>
