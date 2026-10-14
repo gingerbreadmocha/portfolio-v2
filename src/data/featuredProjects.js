@@ -27,5 +27,20 @@ export const FEATURED_PROJECTS = [
         description: "A journal app for your pet!",
         tags: ["React Native", "Node.js"],
         carousel: ["/featured/pawmemo/landing.png", "/featured/pawmemo/create.png", "/featured/pawmemo/form.png", "/featured/pawmemo/dash.png", "/featured/pawmemo/event.png"]
+    },
+    {
+        name: "Fridge Fit",
+        img: "/featured/fridge-fit/fridge-fit-banner.webp",
+        description: "Can you fit all the items in the fridge?",
+        tags: ["Godot", "Mobile"],
+        carousel: ["/featured/fridge-fit/fridge-fit-1.webp", "/featured/fridge-fit/fridge-fit-2.webp", "/featured/fridge-fit/fridge-fit-3.webp", "/featured/fridge-fit/fridge-fit-4.webp"],
+        downloadLink: "/featured/fridge-fit/fridgeFit.apk"
+    }, {
+        name: "Klein's Fortune Telling",
+        img: "/featured/klein-tarot.png",
+        description: "A fortune-telling app inspired by Klein Moretti from Lord of Mysteries",
+        tags: ["React", "JS", "Node.js", "OpenRouter"],
+        link: "https://kleins-fortune-telling.jennyzhou0302.workers.dev/",
+        githubLink: "https://github.com/gingerbreadmocha/kleins-fortune-telling"
     }
 ]
